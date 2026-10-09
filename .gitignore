@@ -1,0 +1,24 @@
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+
+# Data Lake / Datasets (Ignore processed data, keep raw template if desired)
+data/processed/*.csv
+!data/raw/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Power BI temp files
+*.pbix.loc
+*.abf
